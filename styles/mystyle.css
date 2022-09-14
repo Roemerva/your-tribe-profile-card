@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://cdn.hovia.com/app/uploads/blue-and-pink-bright-gradient-wallpaper-mural-Plain.jpg');
+@import url('https://cdn.dribbble.com/users/39141/screenshots/4370017/01_copy_195.gif');
+@import url('https://webartdevelopers.com/blog/wp-content/uploads/2019/02/Pure-CSS3-Gradient-Background-Animation.gif');
+
+body {
+    height:100vh;
+    font-family: open sans;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#ff00ff;
+    font-family: 'Noto Sans', sans-serif;
+    background: url('https://webartdevelopers.com/blog/wp-content/uploads/2019/02/Pure-CSS3-Gradient-Background-Animation.gif');
+    background-size: 200%
+
+  }
+  .foto {
+    width:15em;
+    border-radius:1em;
+    border:2px solid #ffffff;
+    box-shadow:0 0 2px 2px rgba(0,0,0,.2);
+    position:relative;
+    top:1rem;
+    transition:.25s .15s;
+    
+  }
+.text {
+
+padding: 30px 30px 10px 30px
+}
+
+  article {
+    min-height: 500px;
+    max-width: 300px;
+      position: relative;
+      padding-left: 10rem;
+      border: 1px solid black;
+      overflow: hidden;
+    background:rgb(0, 0, 0);
+    background-image: url("https://cdn.dribbble.com/users/39141/screenshots/4370017/01_copy_195.gif");
+    background-size: 250%;
+    border-radius:1em;
+    border:2px solid #ffffff;
+
+
+  }
+  
+    
+  h1 {
+    margin:1rem 0 1rem;
+    color: #ffffff;
+    writing-mode: vertical-rl
+  
+    
+  }
+
+  p { 
+    margin:0;
+    color: rgb(255, 255, 255);
+
+  }
+
+
+  a {
+    color: #ffffff; 
+    padding-bottom: 30px;
+    display: inline-block;
+    margin-bottom: 30px;
+    height: 100px;
+    width: 100px;
+  }
+
+  a img { 
+    height: 60px;
+    width: 100px;
+    object-fit: contain;
+
+  }
+  
+  .sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background: linear-gradient(0deg, rgb(58, 51, 255) 20%, #ff00d0 100%);    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    position: absolute;
+    font-size: 2.5em;
+    font-family: 'Noto Sans', sans-serif;
+    border-right: #ffffff solid 2px;
+}
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+  }
+
+  
+
+
+  
